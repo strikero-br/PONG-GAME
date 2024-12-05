@@ -80,20 +80,20 @@ body, html {
     100% { background-position: 0% 50%; }
   }
   
-  /* Container do Placar */
-  .placarContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 20px;
-    margin-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
-    box-sizing: border-box;
-    position: relative;
-  }
+ /* Container do Placar */
+ .placarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
   
   /* Placar Individual */
   .placar {
@@ -425,7 +425,8 @@ body, html {
     accent-color: #ff006e;
   }
   
+  /* Botão Fechar Opções */
   .botaoFecharOpcoes {
-    margin-top: 20px;
+    background: linear-gradient(45deg, #ff006e, #8338ec);
   }
-  
+ 
